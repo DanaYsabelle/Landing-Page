@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+    <title>Landing Page</title>
+  </head>
+
+  <body>
+    <header id="header">
+   
+
+      <nav id="nav-bar">
+        <img id="header-img" src="Images/Film_Cameras_logo.png" alt="In Focus logo" >
+        <ul>
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#hero">Product</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+    
+        </ul>
+      </nav>
+    
+      </header>
+
+<section id="home">
+  <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval ="2000">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="overlay-image" style="background-image: url(./Images/camera.jpg);"></div>
+      <div class="container">
+        <h1>In Focus.<h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur doloribus ratione porro perferendis distinctio ex? Quae nisi nam quod commodi, vel dolore magni assumenda consectetur a numquam inventore similique amet. </p>
+          <!--<a href= "#main" class="btn btn-lg btn-primary">Read More</a>-->
+               </div>
+      </div>
+    <div class="carousel-item">
+      <div class="overlay-image" style="background-image: url(./Images/nikon_fm2.jpg);"></div>
+      <div class="container">
+        <h1>In Focus.<h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iste iure saepe natus laborum quaerat accusantium eius, quibusdam quam eveniet totam unde fuga ut ipsum, obcaecati, aliquid illum quidem eligendi.</p>
+         <!---<a href= "#main" class="btn btn-lg btn-primary">Read More</a>-->
+      </div>
+      
+    </div>
+    <div class="carousel-item"> 
+      <div class="overlay-image" style="background-image: url(./Images/canonae1.jpg);"></div> 
+      <div class="container">
+        <h1>In Focus.<h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores perspiciatis laboriosam sit, laudantium quos deleniti laborum qui eaque, blanditiis illum non corrupti consequatur tempora mollitia temporibus asperiores voluptas quibusdam porro.</p>
+          <!--<a href= "#main" class="btn btn-lg btn-primary">Read More</a>-->
+      </div>
+      
+    </div>
+    </div>
+    <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+      <span class="visually-hidden">Previous</span>
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="prev">
+      <span class="visually-hidden">Previous</span>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+
+</section>
+
+<div class="business-info"></div>
+
+  <section id="hero">
+    <h2>Capturing memories and developing surprises</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+  <div class="business-info">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Vintage</h2>
+          <p>
+            Each camera comes from a different era that holds a lot of history.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Fast Shipping</h2>
+          <p>
+            We make sure you recieve your camera as fast as possible.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Quality Assurance</h2>
+          <p>
+            For every purchase you make, we will ensure there are no damages or faults.
+          </p>
+        </div>
+      </div>
+    </section>
+
+<section id="how-it-works">
+  <h1>Here is a tutorial on how to use one of our vintage cameras.</h1>
+  <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/f2laf8VdZdk" frameborder="0" allowfullscreen ng-show="showvideo"></iframe>
+
+    </section>
+    <section id="pricing">
+      <h1>Best Sellers</h1>
+
+      <div class="product" id="tenor">
+  <div class="level">Canon AE1</div>
+        <h2>$200</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Nikon FM2</div>
+        <h2>$272</h2>
+        <ol>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Praktika MTL5</div>
+        <h2>$100</h2>
+        <ol>
+          <li>Plays similar to a Trumpet</li>
+          <li>Great for Jazz Bands</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      
+      <span>Copyright 2021, In Focus Film Cameras</span>
+    </footer>
+  </div>
+</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
